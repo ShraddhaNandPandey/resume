@@ -1,0 +1,27 @@
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-left: 30px;
+    transition: transform 1s; 
+}
+
+.box1:hover {
+    transform: rotateY(180deg); 
+    background-color: rgb(0, 0, 0);
+}
+.cards
+{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.latest-project {
+ margin-bottom: 50px;
+ text-align: center;
+ font: size 20px;
+ font-weight: 600;
+
+}
